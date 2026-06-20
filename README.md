@@ -1,50 +1,51 @@
 **🌦️ Weather Website**
 
-**📌 Project Description**<br>
+**📌 Project Description**
+
 This is a simple and responsive Weather Website built using HTML, CSS, and JavaScript.
 
 It allows users to search any city and get real-time weather information using a weather API.
 
 **🚀 Features**
 
-🌡️ Live Temperature display
+1.🌡️ Live Temperature display
 
-💧 Humidity information
+2.💧 Humidity information
 
-🌬️ Wind speed details
+3.🌬️ Wind speed details
 
-🔍 Search weather by city name
+4.🔍 Search weather by city name
 
-📱 Simple and user-friendly UI
+5.📱 Simple and user-friendly UI
 
 
 **🛠️ Tech Stack**
 
-HTML
+1.HTML
 
-CSS
+2.CSS
 
-JavaScript
+3.JavaScript
 
-Weather API (for live data)
+4.Weather API (for live data)
 
 **📊 How It Works**
 
-User enters a city name
+User enters a city name.
 
-JavaScript fetches data from API
+JavaScript fetches data from API.
 
-Weather details are displayed instantly on screen
+Weather details are displayed instantly on screen.
 
 **🎯 Purpose of Project**
 
-This project helps to understand:
+1.This project helps to understand:
 
-API integration in JavaScript
+2.API integration in JavaScript
 
-DOM manipulation
+3.DOM manipulation
 
-Frontend design structure
+4.Frontend design structure
 
 
 
@@ -54,4 +55,4 @@ This is a beginner-friendly project for learning web development basics and work
 
 **👨‍💻 Author**
 
-Name: Khushboo
+ Khushboo
