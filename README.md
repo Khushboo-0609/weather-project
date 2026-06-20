@@ -2,14 +2,20 @@
 
 **📌 Project Description**<br>
 This is a simple and responsive Weather Website built using HTML, CSS, and JavaScript.
+
 It allows users to search any city and get real-time weather information using a weather API.
 
 **🚀 Features**
 🌡️ Live Temperature display
+
 💧 Humidity information
+
 🌬️ Wind speed details
+
 🔍 Search weather by city name
+
 📱 Simple and user-friendly UI
+
 
 **🛠️ Tech Stack**
 HTML
