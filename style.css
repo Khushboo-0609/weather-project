@@ -1,0 +1,23 @@
+body{
+ background-image: url(img.jpeg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin-top: 50px;
+ display: flex;
+ justify-content: center;
+}
+
+select,button{
+ padding: 20px;
+ margin: 20px;
+ width: 80%;
+
+}
+
+#weatherResult{
+ margin-top: 20px;
+ text-align: left;
+}
+
+
+
