@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:url("img.jpeg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    transition:0.5s;
+}
+
+.container{
+    width:420px;
+    max-width:90%;
+    padding:25px;
+    text-align:center;
+    background:rgba(255,255,255,0.18);
+    backdrop-filter:blur(15px);
+    border-radius:20px;
+    border:1px solid rgba(255,255,255,0.3);
+    color:white;
+    box-shadow:0 10px 30px rgba(0,0,0,0.4);
+}
+
+h1{
+    margin-bottom:20px;
+}
+
+.search-box{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+input,
+select{
+    padding:12px;
+    border:none;
+    outline:none;
+    border-radius:10px;
+    font-size:16px;
+}
+
+.btn-box{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:15px;
+}
+
+button{
+    flex:1;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:bold;
+    background:#0077ff;
+    color:white;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+    background:#005fd1;
+}
+
+#loading{
+    display:none;
+    margin-top:20px;
+    font-size:18px;
+    font-weight:bold;
+    color:yellow;
+}
+
+#error{
+    color:#ffb3b3;
+    margin-top:15px;
+    font-weight:bold;
+}
+
+#weatherResult{
+    display:none;
+    margin-top:20px;
+    animation:fade 0.6s ease;
+}
+
+#weatherIcon{
+    width:100px;
+    height:100px;
+    margin-bottom:10px;
+}
+
+#cityName{
+    font-size:28px;
+    margin-bottom:8px;
+}
+
+#description{
+    text-transform:capitalize;
+    margin-bottom:10px;
+}
+
+#temperature{
+    font-size:40px;
+    margin:15px 0;
+    color:#ffe600;
+}
+
+#weatherResult p{
+    margin:8px 0;
+    font-size:17px;
+}
+
+@keyframes fade{
+
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+/* Weather Background Classes */
+
+.sunny{
+    background:url("sunny.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+.cloudy{
+    background:url("cloudy.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+.rainy{
+    background:url("rainy.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+.snow{
+    background:url("snow.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+.night{
+    background:url("night.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+@media(max-width:500px){
+
+.container{
+    width:95%;
+}
+
+.btn-box{
+    flex-direction:column;
+}
+
+button{
+    width:100%;
+}
+
+}

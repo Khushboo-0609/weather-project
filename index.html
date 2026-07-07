@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🌤 Weather App</h1>
+
+    <!-- Search -->
+    <div class="search-box">
+
+        <select id="cityDropdown">
+            <option value="">Select City</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Bengaluru">Bengaluru</option>
+           
+        </select>
+
+    </div>
+
+    <!-- Buttons -->
+
+    <div class="btn-box">
+
+        <button onclick="getWeather()">
+            Get Weather
+        </button>
+
+        <button onclick="toggleUnit()">
+            °C / °F
+        </button>
+
+        <button onclick="refreshWeather()">
+            Refresh
+        </button>
+
+    </div>
+
+    <!-- Loading -->
+
+    <div id="loading">
+        Loading...
+    </div>
+
+    <!-- Error -->
+
+    <div id="error"></div>
+
+    <!-- Result -->
+
+    <div id="weatherResult">
+
+        <img
+        id="weatherIcon"
+        src=""
+        alt="Weather Icon">
+
+        <h2 id="cityName"></h2>
+
+        <h3 id="description"></h3>
+
+        <h2 id="temperature"></h2>
+
+        <p id="feelsLike"></p>
+
+        <p id="humidity"></p>
+
+        <p id="wind"></p>
+
+        <p id="dateTime"></p>
+
+        <p id="updated"></p>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+
