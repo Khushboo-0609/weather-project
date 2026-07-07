@@ -40,8 +40,9 @@ A responsive Weather Application built using HTML, CSS, and JavaScript, integrat
 
 ☁️ OpenWeather API
 
-**📂 Project Structure**
+**##📂 Project Structure**
 
+'''text
 Weather-App/
 │── index.html
 │── style.css
@@ -53,6 +54,7 @@ Weather-App/
 │── snow.jpg
 │── night.jpg
 └── README.md
+'''
 
 **🎯 How It Works**
 
