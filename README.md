@@ -2,6 +2,7 @@
 
 A responsive Weather Application built using HTML, CSS, and JavaScript, integrated with the OpenWeather API to display real-time weather information for selected cities. The app provides live weather updates with a modern glassmorphism user interface and dynamic weather visuals.
 
+
 **🚀 Features**
 
 🌍 Real-time Weather Data
@@ -30,6 +31,7 @@ A responsive Weather Application built using HTML, CSS, and JavaScript, integrat
 
 📱 Fully Responsive Design
 
+
 **🛠️ Tech Stack**
 
 🌐 HTML5
@@ -40,7 +42,8 @@ A responsive Weather Application built using HTML, CSS, and JavaScript, integrat
 
 ☁️ OpenWeather API
 
-**##📂 Project Structure**
+
+## 📂 Project Structure
 
 '''text
 Weather-App/
@@ -56,6 +59,7 @@ Weather-App/
 └── README.md
 '''
 
+
 **🎯 How It Works**
 
 1️⃣ Select a city from the dropdown menu.
@@ -70,6 +74,7 @@ Weather-App/
 
 6️⃣ The background and weather icon automatically update according to the current weather conditions.
 
+
 **✨ Highlights**
 
 📡 Live API Integration
@@ -83,6 +88,7 @@ Weather-App/
 📱 Mobile-Friendly Layout
 
 💡 Clean & Easy-to-Understand Code
+
 
 **📸 Output**
 
@@ -100,6 +106,7 @@ Weather-App/
 
 🌅 Dynamic Background
 
+
 **📌 Future Improvements**
 
 📍 Current Location Weather
@@ -112,6 +119,7 @@ Weather-App/
 
 
 🌎 More Weather Details
+
 
 
 **⭐ If you like this project, don't forget to Star ⭐ the repository and share your feedba**ck!
