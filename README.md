@@ -42,6 +42,12 @@ A responsive Weather Application built using HTML, CSS, and JavaScript, integrat
 
 ☁️ OpenWeather API
 
+ **🚀 Live Demo**
+
+🌍 **Experience the Weather App here:**
+
+https://weather-app-vsw.onrender.com
+
 
 ## 📂 Project Structure
 
