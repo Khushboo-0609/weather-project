@@ -89,9 +89,33 @@ button:hover{
 }
 
 #weatherResult{
-    display:none;
-    margin-top:20px;
-    animation:fade 0.6s ease;
+    margin-top: 25px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    background: rgba(255,255,255,0.18);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    color: white;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.3);
+
+}
+#weatherResult h2{
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+#weatherResult h3{
+    margin: 12px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#weatherResult img{
+    width: 250px;
+    height: 200px;
 }
 
 #weatherIcon{
